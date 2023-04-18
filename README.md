@@ -1,2 +1,2 @@
 # Dice-Game
-a small game dice game using Kotlin.
+A dice game created using Android Studio and Kotlin
