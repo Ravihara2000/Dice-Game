@@ -356,16 +356,16 @@ class Game : AppCompatActivity() {
     }
 
     private fun setImages(){
-        u1img?.setImageResource(resources.getIdentifier(sides[usernums[0]],"drawable","com.example.dicegame"))
-        u2img?.setImageResource(resources.getIdentifier(sides[usernums[1]],"drawable","com.example.dicegame"))
-        u3img?.setImageResource(resources.getIdentifier(sides[usernums[2]],"drawable","com.example.dicegame"))
-        u4img?.setImageResource(resources.getIdentifier(sides[usernums[3]],"drawable","com.example.dicegame"))
-        u5img?.setImageResource(resources.getIdentifier(sides[usernums[4]],"drawable","com.example.dicegame"))
-        c1img?.setImageResource(resources.getIdentifier(sides[computernums[0]],"drawable","com.example.dicegame"))
-        c2img?.setImageResource(resources.getIdentifier(sides[computernums[1]],"drawable","com.example.dicegame"))
-        c3img?.setImageResource(resources.getIdentifier(sides[computernums[2]],"drawable","com.example.dicegame"))
-        c4img?.setImageResource(resources.getIdentifier(sides[computernums[3]],"drawable","com.example.dicegame"))
-        c5img?.setImageResource(resources.getIdentifier(sides[computernums[4]],"drawable","com.example.dicegame"))
+        u1img?.setImageResource(resources.getIdentifier(sides[usernums[0]],"drawable","com.example.greekdice"))
+        u2img?.setImageResource(resources.getIdentifier(sides[usernums[1]],"drawable","com.example.greekdice"))
+        u3img?.setImageResource(resources.getIdentifier(sides[usernums[2]],"drawable","com.example.greekdice"))
+        u4img?.setImageResource(resources.getIdentifier(sides[usernums[3]],"drawable","com.example.greekdice"))
+        u5img?.setImageResource(resources.getIdentifier(sides[usernums[4]],"drawable","com.example.greekdice"))
+        c1img?.setImageResource(resources.getIdentifier(sides[computernums[0]],"drawable","com.example.greekdice"))
+        c2img?.setImageResource(resources.getIdentifier(sides[computernums[1]],"drawable","com.example.greekdice"))
+        c3img?.setImageResource(resources.getIdentifier(sides[computernums[2]],"drawable","com.example.greekdice"))
+        c4img?.setImageResource(resources.getIdentifier(sides[computernums[3]],"drawable","com.example.greekdice"))
+        c5img?.setImageResource(resources.getIdentifier(sides[computernums[4]],"drawable","com.example.greekdice"))
     }
 
     private fun resetButtons(){
